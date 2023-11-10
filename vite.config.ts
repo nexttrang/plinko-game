@@ -5,5 +5,5 @@ import tsConfigPaths from 'vite-tsconfig-paths'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsConfigPaths()],
-  base: "http://plinko-game.github.io",
+  base: 'https://nexttrang.github.io/plinko-game/',
 })
