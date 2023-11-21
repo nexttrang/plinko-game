@@ -18,6 +18,7 @@ export function Routes() {
             <Route path="/gifts" element={<Gifts />} />
           </Route>
           <Route path="/" element={<ScoreBoardPage />} />
+          <Route path="/plinko-game" element={<ScoreBoardPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/contribute" element={<Contribute />} />
           <Route path="*" element={<NotFound />} />
